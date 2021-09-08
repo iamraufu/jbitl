@@ -127,10 +127,7 @@ const Home = () => {
                             <div className="col-sm-4">
                                 {
                                     publicationData.map(pub =>
-
-                                        <p className='mt-5'>
-                                            <a className='a-primary' href={pub.link}>{pub.name}</a>
-                                        </p>
+                                        <p style={{ cursor: 'pointer' }} className='mt-5 a-primary'>{pub.name}</p>
                                     )
                                 }
                             </div>
@@ -143,8 +140,6 @@ const Home = () => {
                                                 <img className="img-fluid mx-auto d-block" src={pub.image}
                                                     alt="JBITL" />
                                             </div>
-
-
                                         )
                                     }
                                 </div>
@@ -155,7 +150,7 @@ const Home = () => {
 
             </div>
 
-            <footer style={{ backgroundColor: '#141714', fontSize: '14px',height:'60vh' }}>
+            <footer style={{ backgroundColor: '#141714', fontSize: '14px' }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-3"></div>
@@ -176,7 +171,7 @@ const Home = () => {
                                 <br />
                                 Dhaka 1000,
                                 <br />
-                                Bangladesh
+                                Bangladesh.
                                 <br />
                             </p>
                             <span style={{ marginTop: '20px' }}>info@jbitl.net</span>
@@ -186,26 +181,26 @@ const Home = () => {
                 </div>
 
             </footer>
-                <div style={{backgroundColor: 'black',height:'50px'}} className="d-flex align-items-center justify-content-center social-links">
-                    <div className="container-fluid d-flex">
-                        <div className="col-md-1"></div>
-                        <div className="col-md-1"></div>
-                        <div className="col-md-1"></div>
-                        <div className="col-md-1"></div>
-                        <div className="col-md-1"></div>
-                        <div className="col-md-1"><a className='a-secondary fw-bold' href="https://twitter.com/">Twitter</a></div>
-                        <div className="col-md-1 ps-5"><a className='a-secondary fw-bold' href="https://www.linkedin.com/">Linkedin</a></div>
-                        <div className="col-md-1"></div>
-                        <div className="col-md-1"></div>
-                        <div className="col-md-1"></div>
-                        <div className="col-md-1"></div>
-                        <div className="col-md-1"></div>
-                    </div>
+            <div style={{ backgroundColor: 'black', height: '50px' }} className="d-flex align-items-center justify-content-center social-links">
+                <div className="container-fluid d-flex">
+                    <div className="col-md-1"></div>
+                    <div className="col-md-1"></div>
+                    <div className="col-md-1"></div>
+                    <div className="col-md-1"></div>
+                    <div className="col-md-1"></div>
+                    <div className="col-md-1"><a className='a-secondary fw-bold' href="https://twitter.com/">Twitter</a></div>
+                    <div className="col-md-1 ps-5"><a className='a-secondary fw-bold' href="https://www.linkedin.com/">Linkedin</a></div>
+                    <div className="col-md-1"></div>
+                    <div className="col-md-1"></div>
+                    <div className="col-md-1"></div>
+                    <div className="col-md-1"></div>
+                    <div className="col-md-1"></div>
                 </div>
-                <div style={{backgroundColor: 'black',borderTop:'1px solid #212529', fontSize:'13px'}}className="d-flex align-items-center justify-content-center">
-                    <p className='text-center mt-2 text-secondary'>COPYRIGHT <span style={{cursor:'pointer'}} className='a-secondary fw-bold'>JBITL</span> © {(new Date()).getFullYear()}. ALL RIGHTS RESERVED
-                    </p>
-                </div>
+            </div>
+            <div style={{ backgroundColor: 'black', borderTop: '1px solid #212529', fontSize: '13px' }} className="d-flex align-items-center justify-content-center">
+                <p className='text-center mt-2 text-secondary'>COPYRIGHT <span style={{ cursor: 'pointer' }} className='a-secondary fw-bold'>JBITL</span> © {(new Date()).getFullYear()}. ALL RIGHTS RESERVED
+                </p>
+            </div>
         </div>
     );
 };
