@@ -5,12 +5,12 @@ import {
   Route
 } from "react-router-dom";
 import Home from './Components/Home/Home';
-import About from './Components/About/About';
-import Publication from './Components/Publication/Publication';
-import Projects from './Components/Projects/Projects';
-import Experts from './Components/Experts/Experts';
-import Connect from './Components/Connect/Connect';
-import NotFound from './Components/NotFound/NotFound';
+// import About from './Components/About/About';
+// import Publication from './Components/Publication/Publication';
+// import Projects from './Components/Projects/Projects';
+// import Experts from './Components/Experts/Experts';
+// import Connect from './Components/Connect/Connect';
+// import NotFound from './Components/NotFound/NotFound';
 
 function App() {
   return (
@@ -22,23 +22,28 @@ function App() {
         </Route>
 
         <Route path="/about">
-          <About />
+          {/* <About /> */}
+          <Home />
         </Route>
 
         <Route path="/publication">
-          <Publication />
+          {/* <Publication /> */}
+          <Home />
         </Route>
 
         <Route path="/projects">
-          <Projects />
+          {/* <Projects /> */}
+          <Home />
         </Route>
 
         <Route path="/experts">
-          <Experts />
+          {/* <Experts /> */}
+          <Home />
         </Route>
 
         <Route path="/connect">
-          <Connect />
+          {/* <Connect /> */}
+          <Home />
         </Route>
 
         <Route exact path="/">
@@ -46,7 +51,8 @@ function App() {
         </Route>
 
         <Route path="*">
-          <NotFound />
+          {/* <NotFound /> */}
+          <Home />
         </Route>
 
       </Switch>

@@ -4,16 +4,10 @@ import image1 from '../../images/tool.png';
 import image2 from '../../images/connect.png';
 import image3 from '../../images/train.png';
 import Navbar from './Navbar';
-import demo1 from '../../images/demo/1.jpg';
-import demo2 from '../../images/demo/2.jpg';
-import demo3 from '../../images/demo/3.jpg';
-import demo4 from '../../images/demo/4.jpg';
-import demo5 from '../../images/demo/5.jpg';
-import demo6 from '../../images/demo/6.jpg';
-import demo7 from '../../images/demo/7.jpg';
-import demo8 from '../../images/demo/8.jpg';
-import demo9 from '../../images/demo/9.jpg';
-import demo10 from '../../images/demo/10.jpg';
+import publication1 from '../../images/publication-1.jpg';
+import publication2 from '../../images/publication-2.jpg';
+import publication3 from '../../images/publication-3.jpg';
+
 import './Home.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -24,18 +18,18 @@ const Home = () => {
     const serviceData = [
         {
             image: image1,
-            title: 'TECHNICAL ASSISTANCE',
-            description: 'JBITL provides direct technical assistance for expert testimony in contested dockets, engineering reports, and modeling. Technical assistance platform is supported by a network of over 60 independent consultants and firms with recognized power systems knowledge.'
+            title: 'EXPERTISE',
+            description: 'The product and the technology is made in Japan by Eiken Co. Ltd. This is a complete replacement of clay brick. In civil construction, people needs brick as basic goods for wide range of works. This could fill up all purpose needs and 100% environment friendly.'
         },
         {
             image: image2,
             title: 'CONNECTIVITY PLATFORM',
-            description: 'JBITL is an online community forum for advocates, experts, and other interested parties to share knowledge and technical information around the design, operation, and attributes of a flexible and dynamic grid. The JBITL platform has over 220 members and hosts discussions ranging from the role of regulated utilities in owning energy storage to appropriate valuation methods for avoided distribution charges.'
+            description: 'Japan Bangladesh Ideas and Technologies Ltd. (JBITL) has Begun 2021 with the fantasy to acquaint new innovation items with the local area. Environment changes are the justification natural contamination. The contamination is basically coming from coal and fossil consuming in conventional Brickfields. JBITL is giving new block projects and moving the innovation for business visionaries in Bangladesh.'
         },
         {
             image: image3,
-            title: 'TRAINING',
-            description: 'JBITL partners with allied organizations to develop training modules on complex grid topics for use by advocates, regulators, and policymakers. In addition, JBITL develops written reports and whitepapers on relevant grid issues for dissemination to a broader audience.'
+            title: 'MISSION',
+            description: 'To meet the ecological products demand in Construction and Maintenance services with standards in health and safety towards our Community'
         }
     ]
 
@@ -43,53 +37,48 @@ const Home = () => {
         {
             name: 'Affordable Reliable Decarbonization Pathways For Montana',
             link: '',
-            image: demo1
+            image: publication1
         },
         {
             name: 'Removing Barriers to DER in Wholesale Markets',
             link: '',
-            image: demo2
+            image: publication2
         },
         {
             name: 'Pathways and Policies to Achieve Nevada’s Climate Goals',
             link: '',
-            image: demo3
+            image: publication3
         },
         {
             name: 'Western States Deep Decarbonization',
             link: '',
-            image: demo4
+            image: publication2
         },
         {
             name: 'NREL Inertia and the Power Grid: A Guide Without the Spin',
             link: '',
-            image: demo5
+            image: publication3
         },
         {
             name: 'A Playbook For Modernizing The Distribution Grid',
             link: '',
-            image: demo6
+            image: publication1
         },
         {
             name: '10 Things you should know about Grid-Forming Inverters',
             link: '',
-            image: demo7
+            image: publication3
         },
         {
             name: 'Regulating Voltage: Recommendations For Smart Inverters',
             link: '',
-            image: demo8
+            image: publication2
         },
         {
             name: 'The Role of Distributed Energy Resources in New Jersey Clean Energy Transition',
             link: '',
-            image: demo9
-        },
-        {
-            name: 'Modernizing the Grid in the Public Interest: Getting a Smarter Grid at the Least Cost for South Carolina Customers',
-            link: '',
-            image: demo10
-        },
+            image: publication1
+        }
 
     ]
 
@@ -100,14 +89,13 @@ const Home = () => {
                 <div className="container">
                     <Navbar />
                     <h1 data-aos="fade-up" className='text-white mt-5'>Japan Bangladesh Ideas and Technologies Ltd.</h1>
+                    <p className='text-white'>We respect the community and the environment</p>
                 </div>
             </div>
 
             <div style={{ marginTop: '100px' }} className="featured container">
-                <h3 className='text-center fw-bold title-secondary'>ENABLING A RELIABLE, LOW-CARBON GRID</h3>
-                <p className='text-center fs-5 p-primary'>JBITL provides comprehensive technical expertise to policy makers,
-                    advocates and other energy decision makers on the design,
-                    operation and attributes of a flexible and dynamic grid.</p>
+                <h3 className='text-center fw-bold title-secondary text-uppercase'>Alternative of Traditional Bricks & Blocks</h3>
+                <p className='text-center fs-5 p-primary'>Japan Bangladesh Ideas & Technologies Ltd. (JBITL) has Started 2021 with the dream to introduce new technology products to the community. Climate changes are the reason for environmental pollution. The pollution is mainly coming from coal & fossil burning in traditional Brickfields. JBITL is providing new brick projects and transferring the technology for entrepreneurs in Bangladesh.</p>
             </div>
 
             <div className="featured-title d-flex align-items-center justify-content-center">
@@ -206,7 +194,7 @@ const Home = () => {
                         <div className="col-md-1"></div>
                         <div className="col-md-1"></div>
                         <div className="col-md-1"><a className='a-secondary fw-bold' href="https://twitter.com/">Twitter</a></div>
-                        <div className="col-md-1 ps-5"><a className='a-secondary fw-bold' href="https://www.linkedin.com/in/eftykharrahman/">Linkedin</a></div>
+                        <div className="col-md-1 ps-5"><a className='a-secondary fw-bold' href="https://www.linkedin.com/">Linkedin</a></div>
                         <div className="col-md-1"></div>
                         <div className="col-md-1"></div>
                         <div className="col-md-1"></div>
