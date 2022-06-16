@@ -83,7 +83,7 @@ const Home = () => {
     ]
 
     return (
-        <div className='home-container'>
+        <div className='home-container' id="google_translate_element">
             <div className="hero-section">
 
                 <div className="container">
